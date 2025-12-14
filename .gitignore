@@ -1,0 +1,40 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode or IDE files
+.vscode/
+.idea/
+
+# Pytest cache
+.pytest_cache/
+
+# Build / dist folders
+dist/
+build/
+*.egg-info/
+
+# Benchmark artifacts (if any)
+benchmark_output.csv
+benchmark_results.txt
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
