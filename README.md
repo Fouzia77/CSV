@@ -94,11 +94,15 @@ This script creates test data (10,000 rows × 5 columns) and measures the averag
 
 
 ![Benchmark Results]
+
 === Benchmark Results (average over 3 runs) ===
+
 csv.writer write time       : 0.034586 seconds
+
 CustomCsvWriter write time  : 0.033278 seconds
 
 csv.reader read time        : 0.028496 seconds
+
 CustomCsvReader read time   : 0.398267 seconds
 
 
