@@ -26,7 +26,7 @@ I also added a benchmark script to compare my code with Python’s built-in csv 
 ### Clone the repository
 
 bash
-git clone https://github.com/Chopra-14/custom-csv-parser-python.git
+git clone https://github.com/Fouzia77/CSV.git
 cd custom-csv-parser-python
 
 
@@ -91,16 +91,16 @@ This script creates test data (10,000 rows × 5 columns) and measures the averag
 
 ## 5. Benchmark Results
 
-| Operation       | Avg Time (s) |
-| --------------- | ------------ |
-| csv.writer      | 0.025959     |
-| CustomCsvWriter | 0.026989     |
-| csv.reader      | 0.029148     |
-| CustomCsvReader | 0.219198     |
 
----
 
-![Benchmark Results](images/benchmark_results.png)
+![Benchmark Results]
+=== Benchmark Results (average over 3 runs) ===
+csv.writer write time       : 0.034586 seconds
+CustomCsvWriter write time  : 0.033278 seconds
+
+csv.reader read time        : 0.028496 seconds
+CustomCsvReader read time   : 0.398267 seconds
+
 
 ---
 
