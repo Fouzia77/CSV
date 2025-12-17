@@ -27,7 +27,7 @@ I also added a benchmark script to compare my code with Python’s built-in csv 
 
 bash
 git clone https://github.com/Fouzia77/CSV.git
-cd custom-csv-parser-python
+cd csv
 
 
 
